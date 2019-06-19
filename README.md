@@ -33,6 +33,7 @@ In order to successfully complete this exercise, you must find and complete the 
 * Push your source code to your `master` branch.
 * Deploy your site to master branch.
 * Turn in 2 URLs: 1 to your code and 1 to the deployed code
+* Your code screenshots directory should contain 2 images - one of the browser cow saying "hello world" and one of the command line cow saying "hello world"
 
 ## Stretch Goals
 
