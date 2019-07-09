@@ -1,17 +1,19 @@
 # WATS 3020: Cowsay Hello World
 
-JavaScript was created to be run in the browser, but in 2009, the JavaScript engine in Chrome was extracted and used to create a command line program that can execute JavaScript and is known as `node.js`.  An software registry named **npm** was created to hold and manage dependencies.  When you install `node`, you also get `npm` which is a program used to manage downloading code from [npmjs.org](npmjs.org).  
+JavaScript was created to be run in the browser, but in 2009, the JavaScript engine in Chrome was extracted and used to create a command line program that can execute JavaScript and is known as `node.js`.  A software registry named **npm** was created to hold and manage dependencies.  When you install `node`, you also get `npm` which is a program used to manage downloading code from [npmjs.org](npmjs.org).  
 
-In this assignment you'll get experience hooking up node modules to a node script and hooking up a JavaScript file to an html file.
+In this assignment you'll get experience hooking up **node** modules to a JavaScript file and hooking up a JavaScript file to an HTML file.
 
-We like to do a **Hello World** project when we're learning a new language.  Being able to say "hello world" means that you are able to give your program some I/O capabilities, that is your program can "talk".  In this exercise you'll see JavaScript "talk" in two very different ways: 1) through a command line interface with node and 2) through a web/gui interface via an HTML file.
+We like to do a **Hello World** project when we're learning a new language.  Being able to say "hello world" means that you are able to give your program some I/O capabilities, that is your program can "talk".  In this exercise you'll see JavaScript "talk" in two very different ways: 1) through a command line interface with **node** and 2) through a web/gui interface via an HTML file.
 
 ## Learn JavaScript in the Browser or With Node?
-JavaScript is the only language that runs in the browser.  The benefit of learning to run JavaScript using **node** it that you can run code it in a way that more approximates how you would run code with other scripting languages like Python.  With node, we don't need to setup the constructs of HTML or run a server to execute JavaScript.  
+JavaScript is the only language that runs in the browser.  The benefit of learning to run JavaScript using **node** it that you can run code in a way that more approximates how you would run code with other scripting languages like Python.  With **node**, we don't need to setup the constructs of HTML or run a server to execute JavaScript.  
 
 ## Installing node and npm
 See these instructions for installing node before you begin: [Node install](./install_node.md).  
-Once node and npm are installed run `npm install` from the command line to import the necessary libraries to access the  **cowsay** library from the code that node will execute.
+ When you install **node**, you get it's package manager **npm** (Node Package Manager) along with it.  Node packages are chunks of JavaScript made available through **modules** that get downloaded from [npmjs.org](https://npmjs.org).  When you study JavaScript Frameworks, you'll work more intensively with **npm** modules.  In this assignment we introduce these resources as we'll be using **node** to learn to program JavaScript in several tutorial assignments. 
+
+Once **node** and **npm** are installed, you can run `npm install` from the command line in the root of this project to import the necessary libraries to access the  **cowsay** library from the code that **node** will execute.
 
 ## Project Resources
 
@@ -25,8 +27,16 @@ this project:
 
 In order to successfully complete this exercise, you must find and complete the **TODOs** in the code:
 
-* Use script tag in html to make js/main.js available to index.html.
+* Run `npm install` in the root of this project
+* Use script tag in html to make js/main.js available to index.html.  
+```HTML
+<script src="js/main.js">
+```
 * Use CommonJS require to make cowsay and getargs modules available to index.js.
+```JavaScript
+const cowsay = require("cowsay");
+const getargs = require("./modules/get-args")
+```
 * Run index.html in the browser and get the cow to say "hello world".
 * Run index.js in the command line and get the cow to say "hello world".
 * Take screenshots of the browser and CLI output and put them in the screenshots directory.
@@ -41,4 +51,4 @@ If you want to push this project further, you can try some of the following:
 
 * Enhance the styling of the html page.
 * Change the way the cows looks in the html page
-* Change the eyes and tail of the cow in the node output
+* Change the eyes and tail of the cow in the **node** output
