@@ -27,6 +27,7 @@ this project:
 
 In order to successfully complete this exercise, you must find and complete the **TODOs** in the code:
 
+* Fork this repository and clone to your local projects directory
 * Run `npm install` in the root of this project
 * Use script tag in html to make js/main.js available to index.html.  
 ```HTML
