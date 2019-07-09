@@ -31,7 +31,7 @@ In order to successfully complete this exercise, you must find and complete the 
 * Run `npm install` in the root of this project
 * Use script tag in html to make js/main.js available to index.html.  
 ```HTML
-<script src="js/main.js">
+<script src="js/main.js"></script>
 ```
 * Use CommonJS require to make cowsay and getargs modules available to index.js.
 ```JavaScript
