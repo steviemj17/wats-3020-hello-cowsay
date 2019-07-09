@@ -43,7 +43,15 @@ const getargs = require("./modules/get-args")
 * Push your source code to your `master` branch.
 * Deploy your site to master branch.
 * Turn in 2 URLs: 1 to your code and 1 to the deployed code
+
+## Turn in assignment
+Push your code to the forked repository in your account.    
 * Your code screenshots directory should contain 2 images - one of the browser cow saying "hello world" and one of the command line cow saying "hello world"
+Turn in 2 URL's on Canvas which should be of the format:
+* https://github.com/{account name}/{repo name}
+* https://{account name}.github.com/{repo name}
+
+
 
 ## Stretch Goals
 
