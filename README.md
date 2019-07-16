@@ -1,5 +1,9 @@
 # WATS 3020: Cowsay Hello World
 
+### **Walkthrough Video**
+[Cowsay Hello World](https://www.youtube.com/watch?v=08WZvS6hB2o&t=1s)
+***
+
 JavaScript was created to be run in the browser, but in 2009, the JavaScript engine in Chrome was extracted and used to create a command line program that can execute JavaScript and is known as `node.js`.  A software registry named **npm** was created to hold and manage dependencies.  When you install `node`, you also get `npm` which is a program used to manage downloading code from [npmjs.org](npmjs.org).  
 
 In this assignment you'll get experience hooking up **node** modules to a JavaScript file and hooking up a JavaScript file to an HTML file.
